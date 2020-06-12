@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f97f3fe-f794-4493-aa8a-17c22fbbc8ff" name="默认更改列表" comment="初始化" />
+    <list default="true" id="7f97f3fe-f794-4493-aa8a-17c22fbbc8ff" name="默认更改列表" comment="初始化">
+      <change afterPath="$PROJECT_DIR$/创建型模式/工厂模式/index1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/创建型模式/工厂模式/工厂模式.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/创建型模式/建造者模式/建造者模式.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/行为模式/模板方法/index1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/行为模式/模板方法/index2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/行为模式/模板方法/模板方法.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/行为模式/状态模式/index1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/行为模式/策略模式/index1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/行为模式/策略模式/index2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/行为模式/策略模式/策略模式.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/行为模式/访问者模式/index1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/行为模式/访问者模式/index2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/行为模式/访问者模式/访问者模式.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/设计模式.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/行为模式/观察者模式/index1.php" beforeDir="false" afterPath="$PROJECT_DIR$/行为模式/观察者模式/index1.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +44,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../jifei" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
@@ -59,7 +76,13 @@
       <workItem from="1591146071786" duration="16280000" />
       <workItem from="1591232685176" duration="13373000" />
       <workItem from="1591321645391" duration="17197000" />
-      <workItem from="1591579887549" duration="5332000" />
+      <workItem from="1591579887549" duration="14071000" />
+      <workItem from="1591664501299" duration="15077000" />
+      <workItem from="1591690009727" duration="660000" />
+      <workItem from="1591691831122" duration="601000" />
+      <workItem from="1591750776823" duration="17660000" />
+      <workItem from="1591836926837" duration="16560000" />
+      <workItem from="1591923766816" duration="1777000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <created>1591587268317</created>
@@ -68,14 +91,35 @@
       <option name="project" value="LOCAL" />
       <updated>1591587268317</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add:抽象工厂模式">
+      <created>1591857721955</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1591857721956</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="初始化" />
-    <option name="LAST_COMMIT_MESSAGE" value="初始化" />
+    <MESSAGE value="add:抽象工厂模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="add:抽象工厂模式" />
   </component>
 </project>
