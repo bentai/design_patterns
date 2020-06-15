@@ -18,14 +18,14 @@ interface Component
 }
 
 /**
- * 混凝土构件
+ * 具体构件
  * Concrete Components provide default implementations of the operations. There
  * might be several variations of these classes.
  * 具体组件提供操作的默认实现。
  * 这些类可能有几种变体
  */
 
- // 混凝土构件
+ // 具体构件
 class ConcreteComponent implements Component
 {
     public function operation(): string
@@ -41,7 +41,7 @@ class ConcreteComponent implements Component
  * include a field for storing a wrapped component and the means to initialize
  * it.
  * 基本的Decorator类遵循与其他组件相同的接口。
- * 该类的主要目的是为所有混凝土装饰器定义包装接口。包装代码的默认实现可能
+ * 该类的主要目的是为所有具体装饰器定义包装接口。包装代码的默认实现可能
  * 包括用于存储包装组件的字段以及用于初始化包装组件的方法
  */
 // 装饰器
@@ -69,9 +69,9 @@ class Decorator implements Component
 
 /**
  * Concrete Decorators call the wrapped object and alter its result in some way.
- * 混凝土装饰器调用包装的对象并以某种方式更改其结果
+ * 具体装饰器调用包装的对象并以某种方式更改其结果
  */
-// 混凝土装饰器A
+// 具体装饰器A
 class ConcreteDecoratorA extends Decorator
 {
     /**
@@ -92,7 +92,7 @@ class ConcreteDecoratorA extends Decorator
  * wrapped object.
  * 装饰者可以在调用 包装对象之前或之后执行其行为。
  */
-// 混凝土装饰器B
+// 具体装饰器B
 class ConcreteDecoratorB extends Decorator
 {
     public function operation(): string
@@ -122,7 +122,7 @@ function clientCode(Component $component)
  * This way the client code can support both simple components...
  * 这样，客户端代码可以支持两个简单的组件...
  */
-// 实例化混凝土构件
+// 实例化具体构件
 $simple = new ConcreteComponent;
 // 客户：我有一个简单的组成部分
 echo "Client: I've got a simple component:\n";
@@ -139,9 +139,9 @@ echo "\n\n";
  * decorators as well.
  * 请注意装饰器不仅可以包装简单的组件，还可以包装其他*装饰器
  */
-// 混凝土装饰器A
+// 具体装饰器A
 $decorator1 = new ConcreteDecoratorA($simple);
-// 混凝土装饰器B
+// 具体装饰器B
 $decorator2 = new ConcreteDecoratorB($decorator1);
 // 客户：现在我有了一个装饰组件
 echo "Client: Now I've got a decorated component:\n";
